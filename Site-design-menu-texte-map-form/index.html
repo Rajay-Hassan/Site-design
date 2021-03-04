@@ -1,0 +1,64 @@
+<html lang="fr" dir="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Projet 2</title>
+    </head>
+    <body>   
+        <div class="container-fluid p-0 border-bottom border-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light stick">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class ="img-fluid w-50" src="andromeda.png"/></a>
+              <button class="navbar-toggler mt-4 position-relative top-0 start-50 translate-middle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="#dernieres-nouvelles">Notre épopée</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Nos produits</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" data-bs-toggle="collapse" data-bs-target="#contact-bubble" href="#">Nous contacter</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <section id="epopee">
+           <p>
+            Notre début commence tout d'abord sous une constallation appeler andromede moi et henri nous discutions de l'art en tout genre surtout l'art comtemporain. Oui l'art comtemporain qui représente au mieux notre époque actuel et ses défis à venir mais nous sommes dis qu'il fallait plus qu'un nouveau tree de Paul McCarthy ou un baloon dog de Jeff Koons nan ce qu'il faut c'est des supports sur lequel se reposer accomplir ces défis comme des meubles ce que nous vendons
+           </p>
+        </section>
+        <div class="box-form">
+              <div class="collapse" id="contact-bubble">
+                <div class="mb-3 card card-body">
+                    <label for="email" class="form-label m-1">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <label for="nom" class="form-label m-1">Nom</label>
+                    <input type="text" class="form-control" id="nom" placeholder="Nom">
+                    <label for="prenom" class="form-label m-1">Prénom</label>
+                    <input type="text" class="form-control" id="prenom" placeholder="Prénom">
+                    <label for="adresse" class="form-label m-1">Adresse</label>
+                    <input type="text" class="form-control" id="adresse" placeholder="Adresse">
+                    <label for="message" class="form-label m-1">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                    <button type="submit" class="btn btn-primary mb-3 w-50 m-2">Envoyer</button>
+                </div>
+              </div>
+              <p>
+                <button id="contact" class="btn btn-primary contact" type="button" data-bs-toggle="collapse" data-bs-target="#contact-bubble" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="bi bi-envelope"></i>
+                </button>
+              </p>
+        </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10499.98372019625!2d2.364187!3d48.858288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e00552d32eb%3A0xc326f52fa61d1c52!2s2%20Rue%20du%20Parc%20Royal%2C%2075003%20Paris!5e0!3m2!1sfr!2sfr!4v1614846513778!5m2!1sfr!2sfr" width="100%" height="50%" style="border:0;" loading="lazy"></iframe>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+</html>
