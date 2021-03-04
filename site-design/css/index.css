@@ -22,6 +22,67 @@ body{
     border-bottom: 1px solid grey;
 }
 
+/***********************/
+
+#history{
+    font-family: Corbel, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content:left;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: 99% 20%;
+    background-image: url(./images-css/Chaise-plastique_orange.jpg);
+    padding: 20px;
+}
+/*********************************/
+
+
+/*box-form c'est le sélecteur d'une div qui contient formulaire et bouton avec l'icon enveloppe */
+.box-form
+{
+  position:fixed;
+  bottom:1%;
+  right:1%;
+  z-index:9999;
+}
+/* .conttact permet la mise du bouton */
+ .contact
+ {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: black;
+ }
+ .button-submit
+ {
+     background-color: white;
+     color: black;
+     border-color: black;
+ }
+ .button-submit:hover
+ {
+    background-color: #A73912;
+    border-color: black;
+ }
+ /*. enveloppe c'est la mise en positionnement de l'icone en forme d'enveloppe */
+ .contact:hover{
+     background-color:#A73912;  
+ }
+ .fa-envelope:hover{
+    color: white;
+ }
+
+ .fa-envelope{
+     color:black;
+     
+ }
+ .enveloppe
+ {
+   position: relative;
+   right: 2.2%;
+ }
+ 
+
 
 /******* sur écran réduit ************/
 
@@ -45,4 +106,38 @@ body{
     .navbar-light .navbar-toggler:hover{
         color:#A73912;
     }
+}
+/*************Footer*********************/
+footer{
+    background-color:white;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    
+}
+.centrer{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media{
+    display:flex;
+    justify-content:space-between;
+    margin-right:13%;
+}
+
+.fab{
+    width:100px;
+    font-size: 25px;
+}
+.social-media a, .legal a{
+    color: black;
+    text-decoration: none;
+}
+.social-media a:hover{
+    color: #A73912;
+}
+.legal a:hover{
+   color: #A73912;
+   border-bottom: 1px solid grey;
 }
