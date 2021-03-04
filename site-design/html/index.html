@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ANDROMEDA|Design</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
     <script src="https://kit.fontawesome.com/611ed8ad48.js" crossorigin="anonymous"></script>
@@ -32,22 +33,81 @@
                     </ul>
                 </div>
             </nav>
-        </div>
-        
+        </div>       
     </header>
     <section>
+        <div class="row">
+            <div id="history">
+                <p>
+                    Notre histoire<br />
+                    Depuis 1874, ANDROMEDA crée des formes innovantes pour le mobilier de demain.<br />
+                    Maison fondée par Andromeda Stark, la designer à révolutioné le monde du mobilier avec son utilisation des nouveaux matériaux.<br />
+                    L'utilisation de différents matérieaux synthétique à libéré la créativité et permi des motifs et des silhouettes jusque là impossibles.
+                </p>
+            </div>
+          </div>
     </section>
     <section>
 
     </section>
     <section>
-
+         <!--partie formulaire du site web pour le formulaire contact bubble avec tout les éléments contenue dans box-form-->
+         <div class="box-form">
+            <div class="collapse" id="contact-bubble">
+              <div class="mb-3 card card-body">
+                  <label for="email" class="form-label m-1">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="nom@example.com">
+                  <label for="nom" class="form-label m-1">Nom</label>
+                  <input type="text" class="form-control" id="nom" placeholder="Nom">
+                  <label for="prenom" class="form-label m-1">Prénom</label>
+                  <input type="text" class="form-control" id="prenom" placeholder="Prénom">
+                  <label for="adresse" class="form-label m-1">Adresse</label>
+                  <input type="text" class="form-control" id="adresse" placeholder="Adresse">
+                  <label for="message" class="form-label m-1">Message</label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                  <button type="submit" class="btn btn-primary mb-3 w-50 m-2 button-submit">Envoyer</button>
+              </div>
+            </div>
+            <p>
+               <!--bouton bulle avec l'icone enveloppe-->
+              <button class="contact" type="button" data-bs-toggle="collapse" data-bs-target="#contact-bubble" aria-expanded="false" aria-controls="collapseExample">
+                  <i class="far fa-envelope enveloppe"></i>
+              </button>
+            </p>
+    </section>  
+    <section>
+        <!--partie formulaire du site web pour l'iframe de la carte avec largeur et hauteur comprise dans la balise-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10499.98372019625!2d2.364187!3d48.858288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e00552d32eb%3A0xc326f52fa61d1c52!2s2%20Rue%20du%20Parc%20Royal%2C%2075003%20Paris!5e0!3m2!1sfr!2sfr!4v1614846513778!5m2!1sfr!2sfr" width="100%" height="50%" style="border:0;" loading="lazy"></iframe>
     </section>
     <footer>
-
+        <div class="centrer">
+            <div class="social-media">
+                <div class="twitter">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="facebook">
+                    <a href="#"> <i class="fab fa-facebook"></i></i></a> 
+                </div>
+                <div class="instagram">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="snapchat">
+                    <a href="#"><i class="fab fa-snapchat"></i></a>
+                </div>
+            </div>
+            <div class="legal">  
+                <p><a href="#">Mentions légales</a></p>
+                <p><a href="#">Conditions de vente</a></p>
+            </div>
+        </div>      
+        <div class="copyright">
+            <p>Copyright © 2021 ANDROMEDA Design Tous droits réservés </p>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
 </body>
 </html>
