@@ -1,3 +1,5 @@
+
+/*box-form c'est le sélecteur d'une div qui contient formulaire et bouton avec l'icon enveloppe */
 .box-form
 {
   position:fixed;
@@ -5,19 +7,24 @@
   right:1%;
   z-index:9999;
 }
-
+/* .conttact permet la mise du bouton */
  .contact
  {
     width: 50px;
     height: 50px;
     border-radius: 30px;
     text-align: center;
+    align-items: center;
  }
 
+ /*. enveloppe c'est la mise en positionnement de l'icone en forme d'enveloppe */
+ .enveloppe
+ {
+   position: relative;
+   right: 2.2%;
+ }
  
-
- 
-
+/*.img1 c'est la clase pour le logo andromeda*/
 .img1
 {
   width: 100%;
